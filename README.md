@@ -61,3 +61,18 @@ Single-cell analysis is not just a pipeline.
 - Pseudotime is not actual time, so careful consideration is needed before carrying it forward into downstream analysis.
   
 This repository emphasizes conceptual understanding alongside implementation.
+
+---
+## Setup
+
+Clone the repository:
+```bash
+git clone https://github.com/irislity/single_cell_in_python_for_beginners.git 
+cd single_cell_in_python_for_beginners
+```
+
+Create the environment:
+```python
+conda env create -f environment/environment.yml
+conda activate scRNA
+```
