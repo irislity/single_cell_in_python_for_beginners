@@ -80,5 +80,5 @@ conda activate scRNA
 
 ---
 ## Reference
-Scanpy: https://scanpy.readthedocs.io/en/latest/index.html
+Scanpy: https://scanpy.readthedocs.io/en/latest/index.html<br>
 CellTypist: https://www.celltypist.org/
