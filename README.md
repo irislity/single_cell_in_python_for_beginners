@@ -74,7 +74,11 @@ cd single_cell_in_python_for_beginners
 Create the environment:
 ```python
 conda env create -f environment/environment.yml
+<<<<<<< HEAD
 conda activate scRNA
+=======
+conda activate sc_tutorial
+>>>>>>> bae9773 (Add tutorial materials, environment setup, and slides)
 ```
 
 

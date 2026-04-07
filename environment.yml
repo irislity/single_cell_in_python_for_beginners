@@ -1,0 +1,38 @@
+name: sc_tutorial
+
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python=3.12
+  - pip
+
+  # Jupyter
+  - jupyterlab>=4.0
+  - ipykernel
+
+  # Core scientific stack
+  - numpy>=1.24
+  - pandas>=2.0
+  - scipy>=1.11
+  - matplotlib>=3.7
+  - seaborn>=0.13
+
+  - pip:
+    # Single-cell analysis
+    - scanpy==1.12
+    - anndata==0.12.10
+
+    # Cell type annotation
+    - celltypist==1.7.1
+
+    # Clustering
+    - leidenalg==0.11.0
+    - igraph==1.0.0
+
+    # Doublet detection
+    - scrublet==0.2.3
+
+    # Dataset download
+    - pooch>=1.8
