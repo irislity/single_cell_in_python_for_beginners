@@ -76,3 +76,9 @@ Create the environment:
 conda env create -f environment/environment.yml
 conda activate scRNA
 ```
+
+
+---
+## Reference
+Scanpy: https://scanpy.readthedocs.io/en/latest/index.html
+CellTypist: https://www.celltypist.org/
